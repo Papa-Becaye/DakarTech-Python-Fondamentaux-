@@ -1,3 +1,8 @@
+---
+layout: default
+title: Module 2 - Variables et types de données
+permalink: /module-2/
+---
 
 # MODULE 2 : LES VARIABLES ET LES TYPES DE DONNÉES EN PYTHON
 
