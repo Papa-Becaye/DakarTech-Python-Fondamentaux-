@@ -1,0 +1,480 @@
+
+# MODULE 2 : LES VARIABLES ET LES TYPES DE DONNÉES EN PYTHON
+
+**Cours de programmation Python – Niveau débutant**
+
+Chers étudiants,
+
+Lors de notre première séance, nous avons découvert Python et appris à afficher des informations à l'écran avec l'instruction `print()`.
+
+Aujourd'hui, nous allons franchir une nouvelle étape : apprendre à **stocker des informations dans un programme et à les manipuler**.
+
+Prenez le temps de bien comprendre chaque exemple et de réaliser les exercices proposés.
+
+---
+
+## 1. Objectifs du module
+
+À la fin de cette séance, vous devez être capables de :
+
+- Comprendre ce qu'est une variable.
+- Déclarer et utiliser une variable en Python.
+- Connaître les principaux types de données.
+- Modifier la valeur d'une variable.
+- Afficher et manipuler plusieurs variables.
+- Identifier le type d'une donnée avec `type()`.
+
+## 2. Qu'est-ce qu'une variable ?
+
+En programmation, une variable est un espace mémoire auquel on associe un nom et dans lequel on peut stocker une valeur.
+
+Imaginez une boîte sur laquelle vous écrivez une étiquette. Cette étiquette représente le nom de la variable et le contenu de la boîte représente sa valeur.
+
+Exemple :
+
+```python
+nom = "Bécaye"
+age = 25
+ville = "Dakar"
+```
+
+Dans cet exemple :
+
+- `nom` contient le texte `"Bécaye"`.
+- `age` contient le nombre `25`.
+- `ville` contient le texte `"Dakar"`.
+
+**À retenir :** en Python, le symbole `=` sert à affecter une valeur à une variable.
+
+## 3. Comment déclarer une variable ?
+
+Pour créer une variable, il suffit de lui donner un nom et de lui attribuer une valeur.
+
+Syntaxe :
+
+```python
+nom_variable = valeur
+```
+
+Exemples :
+
+```python
+prenom = "Ali"
+age = 20
+note = 15.5
+est_inscrit = True
+```
+
+Python crée automatiquement les variables. Vous n'avez pas besoin de déclarer leur type à l'avance.
+
+### Quelques règles pour nommer une variable
+
+1. Un nom de variable peut contenir des lettres, des chiffres et le caractère `_`.
+2. Il ne doit pas commencer par un chiffre.
+3. Il ne doit pas contenir d'espaces.
+4. Il ne doit pas être un mot réservé de Python.
+5. Les majuscules et les minuscules sont différentes.
+
+Exemples :
+
+```python
+nom_etudiant = "Mamadou"  # Correct
+age2 = 22                 # Correct
+note_finale = 16          # Correct
+
+2age = 22                 # Incorrect
+nom etudiant = "Mamadou"  # Incorrect
+```
+
+Je vous recommande d'utiliser des noms explicites comme `nom_etudiant`, `moyenne` ou `date_naissance`.
+
+## 4. Les principaux types de données
+
+Une variable peut contenir différentes catégories de données. En Python, nous allons principalement étudier quatre types.
+
+### A. Le type String (`str`)
+
+Il représente les chaînes de caractères, c'est-à-dire les textes.
+
+```python
+nom = "Mamadou"
+ville = "Dakar"
+formation = "Informatique"
+```
+
+Un texte doit être placé entre guillemets simples ou doubles.
+
+### B. Le type Integer (`int`)
+
+Il représente les nombres entiers, sans partie décimale.
+
+```python
+age = 22
+nombre_etudiants = 35
+annee = 2026
+```
+
+### C. Le type Float (`float`)
+
+Il représente les nombres décimaux.
+
+```python
+moyenne = 14.5
+prix = 2500.75
+taille = 1.75
+```
+
+Attention : en Python, on utilise le point `.` et non la virgule pour écrire un nombre décimal.
+
+### D. Le type Boolean (`bool`)
+
+Il représente une valeur logique qui ne peut prendre que deux possibilités :
+
+- `True` : vrai.
+- `False` : faux.
+
+Exemples :
+
+```python
+est_inscrit = True
+a_paye = False
+```
+
+### Tableau récapitulatif
+
+| Type | Signification | Exemple |
+|---|---|---|
+| `str` | Texte | `"Dakar"` |
+| `int` | Nombre entier | `25` |
+| `float` | Nombre décimal | `15.5` |
+| `bool` | Valeur logique | `True` |
+
+## 5. Afficher le contenu d'une variable
+
+Pour afficher une variable, nous utilisons l'instruction `print()`.
+
+```python
+nom = "Aminata"
+age = 21
+
+print(nom)
+print(age)
+```
+
+Résultat :
+
+```text
+Aminata
+21
+```
+
+Nous pouvons également afficher un texte et une variable sur la même ligne.
+
+```python
+nom = "Aminata"
+
+print("Bonjour", nom)
+```
+
+Résultat :
+
+```text
+Bonjour Aminata
+```
+
+Une autre méthode consiste à utiliser les f-strings.
+
+```python
+nom = "Aminata"
+age = 21
+
+print(f"Je m'appelle {nom} et j'ai {age} ans.")
+```
+
+Résultat :
+
+```text
+Je m'appelle Aminata et j'ai 21 ans.
+```
+
+**Conseil du professeur :** prenez l'habitude d'utiliser les f-strings. Elles vous seront très utiles lorsque vous développerez des applications plus complexes.
+
+## 6. Modifier la valeur d'une variable
+
+Une variable peut changer de valeur au cours de l'exécution d'un programme.
+
+Exemple :
+
+```python
+age = 20
+
+print(age)
+
+age = 21
+
+print(age)
+```
+
+Résultat :
+
+```text
+20
+21
+```
+
+La deuxième affectation remplace l'ancienne valeur.
+
+Vous pouvez également effectuer des opérations sur les variables :
+
+```python
+solde = 10000
+
+solde = solde + 5000
+
+print(solde)
+```
+
+Résultat :
+
+```text
+15000
+```
+
+Ici, nous avons ajouté 5 000 au solde initial.
+
+## 7. Vérifier le type d'une variable avec `type()`
+
+Python possède une fonction appelée `type()` qui permet de connaître le type d'une donnée.
+
+Exemple :
+
+```python
+nom = "Mamadou"
+age = 22
+moyenne = 14.5
+est_inscrit = True
+
+print(type(nom))
+print(type(age))
+print(type(moyenne))
+print(type(est_inscrit))
+```
+
+Résultat :
+
+```text
+<class 'str'>
+<class 'int'>
+<class 'float'>
+<class 'bool'>
+```
+
+Cette fonction est particulièrement utile pour vérifier les données manipulées dans un programme.
+
+## 8. Les erreurs fréquentes à éviter
+
+### Erreur 1 : oublier les guillemets autour d'un texte
+
+Incorrect :
+
+```python
+nom = Mamadou
+```
+
+Correction :
+
+```python
+nom = "Mamadou"
+```
+
+### Erreur 2 : utiliser une virgule pour un nombre décimal
+
+Incorrect :
+
+```python
+moyenne = 15,5
+```
+
+Correction :
+
+```python
+moyenne = 15.5
+```
+
+### Erreur 3 : confondre le nom d'une variable et sa valeur
+
+```python
+age = "25"
+```
+
+Ici, `age` contient du texte et non un nombre entier.
+
+Pour obtenir un entier :
+
+```python
+age = 25
+```
+
+---
+
+## 9. Travaux pratiques : exercices d'application
+
+Vous allez maintenant mettre en pratique les notions étudiées. Je vous demande de réaliser les exercices vous-mêmes avant de consulter une correction.
+
+### Exercice 1 : Création de variables
+
+Créez les variables suivantes :
+
+- `nom` contenant votre nom.
+- `prenom` contenant votre prénom.
+- `age` contenant votre âge.
+- `ville` contenant votre ville.
+- `filiere` contenant votre filière.
+
+Affichez ensuite toutes les informations à l'écran.
+
+### Exercice 2 : Identifier les types
+
+Créez les variables suivantes :
+
+```python
+nom = "Fatou"
+age = 23
+moyenne = 13.75
+admis = True
+```
+
+**Travail demandé :**
+
+1. Affichez chaque variable.
+2. Affichez le type de chaque variable avec `type()`.
+3. Identifiez le type de chacune sans exécuter le programme.
+
+### Exercice 3 : Modifier une variable
+
+On vous donne le programme suivant :
+
+```python
+solde = 15000
+
+solde = solde + 5000
+solde = solde - 3000
+
+print(solde)
+```
+
+**Questions :**
+
+1. Quelle est la valeur initiale du solde ?
+2. Quelle est sa valeur après l'ajout de 5 000 ?
+3. Quelle est sa valeur finale ?
+4. Quel est le résultat affiché ?
+
+### Exercice 4 : Présentation d'un étudiant
+
+Écrivez un programme qui stocke les informations suivantes :
+
+- Nom.
+- Prénom.
+- Âge.
+- Filière.
+- Niveau d'études.
+
+Affichez ensuite une phrase complète à l'aide d'une f-string.
+
+Exemple de résultat attendu :
+
+```text
+Je m'appelle Mamadou FALL.
+J'ai 22 ans.
+Je suis étudiant en Informatique, niveau Licence 1.
+```
+
+### Exercice 5 : Calcul d'une moyenne
+
+Un étudiant a obtenu les notes suivantes :
+
+- Algorithmique : 14
+- Mathématiques : 12
+- Programmation : 16
+
+**Travail demandé :**
+
+1. Stockez les trois notes dans des variables.
+2. Calculez la somme des notes.
+3. Calculez la moyenne.
+4. Affichez la moyenne obtenue.
+
+### Exercice 6 : Trouver les erreurs
+
+Le programme suivant contient plusieurs erreurs. Identifiez-les et proposez une correction.
+
+```python
+nom = Mamadou
+age = "22"
+moyenne = 15,5
+
+print("Nom :", Nom)
+print("Age :", age)
+print("Moyenne :", moyenne)
+```
+
+---
+
+## 10. Mini-projet : fiche d'inscription à DakarTech
+
+Pour terminer cette séance, vous allez réaliser un petit programme qui affiche une fiche d'inscription d'un étudiant.
+
+Votre programme devra contenir les informations suivantes :
+
+- Nom et prénom.
+- Âge.
+- Filière.
+- Niveau.
+- Année académique.
+- Statut d'inscription (`True` ou `False`).
+
+**Résultat attendu :**
+
+```text
+================================
+       FICHE D'INSCRIPTION
+================================
+
+Nom et prénom : Mamadou FALL
+Âge : 22 ans
+Filière : Informatique
+Niveau : Licence 1
+Année académique : 2026-2027
+Inscription validée : True
+
+================================
+```
+
+Vous êtes libres de choisir les informations affichées, mais votre programme doit respecter les notions abordées dans ce module.
+
+---
+
+## 11. Évaluation des acquis
+
+Avant de passer au module suivant, assurez-vous de pouvoir répondre aux questions suivantes.
+
+- [ ] Je sais expliquer ce qu'est une variable.
+- [ ] Je sais créer et modifier une variable.
+- [ ] Je connais les types `str`, `int`, `float` et `bool`.
+- [ ] Je sais afficher une variable avec `print()`.
+- [ ] Je sais utiliser une f-string.
+- [ ] Je sais vérifier le type d'une variable avec `type()`.
+- [ ] Je suis capable de réaliser la fiche d'inscription.
+
+## Conclusion du professeur
+
+Chers étudiants,
+
+Les variables constituent l'une des bases essentielles de la programmation. Presque tous les programmes informatiques utilisent des variables pour stocker et manipuler des informations.
+
+Ne cherchez pas à mémoriser uniquement les exemples. Prenez le temps de les modifier, de tester différentes valeurs et surtout de comprendre les résultats obtenus.
+
+**Le meilleur moyen d'apprendre à programmer, c'est de programmer régulièrement.**
+
+À la prochaine séance, nous étudierons les **opérateurs en Python**, qui nous permettront d'effectuer des calculs et des comparaisons dans nos programmes.
