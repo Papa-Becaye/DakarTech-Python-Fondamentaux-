@@ -7,8 +7,6 @@ permalink: /module-2/
 
 # Module 2 — Les variables et les types de données en Python
 
-*Cours de programmation Python — Niveau débutant*
-
 Lors de la séance précédente, nous avons appris à utiliser `print()` pour afficher des informations à l'écran. Mais imaginez maintenant que nous souhaitions créer un programme capable de mémoriser le nom d'un étudiant, son âge, ses notes ou encore sa filière.
 
 Comment le programme peut-il conserver ces informations et les réutiliser ?
