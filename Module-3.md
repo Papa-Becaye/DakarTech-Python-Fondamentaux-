@@ -1,4 +1,3 @@
-
 ---
 title: "Module 3 - Les opérateurs en Python"
 permalink: /module-3/
