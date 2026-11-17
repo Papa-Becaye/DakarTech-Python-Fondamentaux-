@@ -1,11 +1,9 @@
 ---
-title: "Module 3 - Les opérateurs en Python"
-permalink: /module-3/
+title: "Module 4 - Les opérateurs en Python"
+permalink: /module-4/
 ---
 
-# Module 3 — Les opérateurs en Python
-
-*Cours de programmation Python — Niveau débutant*
+# Module 4 — Les opérateurs en Python
 
 Lors des séances précédentes, nous avons appris à afficher des informations avec `print()` et à les enregistrer dans des variables.
 
