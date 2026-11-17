@@ -1,11 +1,9 @@
 ---
-title: "Exercices - Module 3 : Les opérateurs en Python"
-permalink: /exercices-module-3/
+title: "Exercices - Module 4 : Les opérateurs en Python"
+permalink: /exercices-module-4/
 ---
 
-# Travaux pratiques — Module 3 : Les opérateurs en Python
-
-*Programmation Python — Niveau débutant*
+# Travaux pratiques — Module 4 : Les opérateurs en Python
 
 Après avoir étudié les opérateurs arithmétiques, les opérateurs de comparaison et les opérateurs logiques, il est temps de vérifier votre compréhension à travers des exercices pratiques.
 
