@@ -15,7 +15,7 @@
 |---|---|---|---|
 | 1 | Module 1 | Introduction à Python, installation, premier programme | En cours |
 | 2 | [Module 2](https://papa-becaye.github.io/DakarTech-Python-Fondamentaux-/module-2/) | Variables et types de données | À faire |
-| 3 | Module 3 | Entrées et sorties : `input()` et `print()` | À faire |
+| 3 | [Module 3](https://papa-becaye.github.io/DakarTech-Python-Fondamentaux-/module-3/) | Entrées et sorties : `input()` et `print()` | En cours |
 | 4 | Module 4 | Opérateurs et conditions | À faire |
 | 5 | Module 5 | Boucles `for`, `while`, `range()`, `break`, `continue` | À faire |
 | 6 | Module 6 | Listes, tuples, dictionnaires et ensembles | À faire |
