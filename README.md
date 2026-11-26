@@ -11,21 +11,21 @@
 
 ## Plan général du cours
 
-| Séance | Module(s) | Thèmes principaux | Statut |
-|---|---|---|---|
-| 1 | Module 1 | Introduction à Python, installation, premier programme | Fait |
-| 2 | [Module 2](https://papa-becaye.github.io/DakarTech-Python-Fondamentaux-/module-2/) | Variables et types de données | Fait |
-| 3 | Module 3 | Entrées et sorties : `input()` et `print()` | En cours |
-| 4 | [Module 4](https://papa-becaye.github.io/DakarTech-Python-Fondamentaux-/module-4/) | Opérateurs et conditions | Fait |
-| 5 | [Module 5](https://papa-becaye.github.io/DakarTech-Python-Fondamentaux-/module-5/) | les conditions `if`, `elif`, `else` | En cours |
-| 6 | [Module 6](https://papa-becaye.github.io/DakarTech-Python-Fondamentaux-/module-6/) | Boucles `for`, `while`, `range()`, `break`, `continue` | À faire |
-| 7 | Module 7 | Listes, tuples, dictionnaires et ensembles | À faire |
-| 8 | Module 8 | Fonctions, paramètres et `return` | À faire |
-| 9 | Module 9 | Chaînes de caractères, fichiers et exceptions | À faire |
-| 10 | Module 10 | Modules, bibliothèques, `pip` et environnements virtuels | À faire |
-| 11 | Module 11 | Bonnes pratiques, débogage et organisation du code | À faire |
-| 12 | Module 12 | Initiation à la programmation orientée objet | À faire |
-| 13 | Module 13 | Projet final : application de gestion simple | À faire |
+| Séance | Module(s) | TP | Thèmes principaux | Statut |
+|---|---|---|---|---|
+| 1 | Module 1 | - | Introduction à Python, installation, premier programme | Fait |
+| 2 | [Module 2](https://papa-becaye.github.io/DakarTech-Python-Fondamentaux-/module-2/) | - | Variables et types de données | Fait |
+| 3 | Module 3 | - | Entrées et sorties : `input()` et `print()` | En cours |
+| 4 | [Module 4](https://papa-becaye.github.io/DakarTech-Python-Fondamentaux-/module-4/) | [Exercices 4](https://papa-becaye.github.io/DakarTech-Python-Fondamentaux-/exercices-module-4/) | Opérateurs et conditions | Fait |
+| 5 | [Module 5](https://papa-becaye.github.io/DakarTech-Python-Fondamentaux-/module-5/) | [Exercices 5](https://papa-becaye.github.io/DakarTech-Python-Fondamentaux-/exercices-module-5/) | les conditions `if`, `elif`, `else` | En cours |
+| 6 | [Module 6](https://papa-becaye.github.io/DakarTech-Python-Fondamentaux-/module-6/) | - | Boucles `for`, `while`, `range()`, `break`, `continue` | À faire |
+| 7 | Module 7 | - | Listes, tuples, dictionnaires et ensembles | À faire |
+| 8 | Module 8 | - | Fonctions, paramètres et `return` | À faire |
+| 9 | Module 9 | - | Chaînes de caractères, fichiers et exceptions | À faire |
+| 10 | Module 10 | - | Modules, bibliothèques, `pip` et environnements virtuels | À faire |
+| 11 | Module 11 | - | Bonnes pratiques, débogage et organisation du code | À faire |
+| 12 | Module 12 | - | Initiation à la programmation orientée objet | À faire |
+| 13 | Module 13 | - | Projet final : application de gestion simple | À faire |
 
 > Ce planning est indicatif. On peut consacrer une séance supplémentaire à un module si les exercices montrent que certaines notions doivent être retravaillées.
 
