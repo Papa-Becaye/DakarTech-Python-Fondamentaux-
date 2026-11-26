@@ -1,6 +1,6 @@
 ---
 title: "Exercices pratiques - Module 4 : Les conditions en Python"
-permalink: /exercices-module-4/
+permalink: /exercices-module-5/
 ---
 
 # Travaux pratiques – Module 4 : Les conditions en Python
