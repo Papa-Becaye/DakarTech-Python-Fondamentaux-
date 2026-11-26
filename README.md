@@ -18,7 +18,7 @@
 | 3 | Module 3 | Entrées et sorties : `input()` et `print()` | En cours |
 | 4 | [Module 4](https://papa-becaye.github.io/DakarTech-Python-Fondamentaux-/module-4/) | Opérateurs et conditions | Fait |
 | 5 | [Module 5](https://papa-becaye.github.io/DakarTech-Python-Fondamentaux-/module-5/) | les conditions `if`, `elif`, `else` | En cours |
-| 6 | [Module 5](https://papa-becaye.github.io/DakarTech-Python-Fondamentaux-/module-6/) | Boucles `for`, `while`, `range()`, `break`, `continue` | À faire |
+| 6 | [Module 6](https://papa-becaye.github.io/DakarTech-Python-Fondamentaux-/module-6/) | Boucles `for`, `while`, `range()`, `break`, `continue` | À faire |
 | 7 | Module 7 | Listes, tuples, dictionnaires et ensembles | À faire |
 | 8 | Module 8 | Fonctions, paramètres et `return` | À faire |
 | 9 | Module 9 | Chaînes de caractères, fichiers et exceptions | À faire |
